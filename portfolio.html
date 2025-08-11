@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+</head>
+<body class="">
+   
+    <div class="container">
+     <nav class="navbar">
+        <div class="box theme">
+            <div class="item"  onclick="theme()">
+                <i id="lightBtn" class="fa-regular fa-sun" ></i>
+                <i id="darkBtn" class="fa-regular fa-moon" style="display: none;"></i>
+            </div>
+        </div>
+        <div class="box nav">
+           <div class="item">
+            <a href="#about">
+                <i class="fa-solid fa-circle-user"></i>
+                <p>about</p>
+            </a>
+            <div class="divider ltr"></div>
+           </div>
+           <div class="item">
+            <a href="#resume">
+                <i class="fa-solid fa-file-invoice"></i>
+                <p>resume</p>
+            </a>
+            <div class="divider ltr"></div>
+           </div>
+           <div class="item">
+            <a href="#projects">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <p>projects</p>
+            </a>
+            <div class="divider ltr"></div>
+           </div>
+           <div class="item">
+            <a href="#blogs">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>blogs</p>
+            </a>
+            <div class="divider ltr"></div>
+           </div>
+           <div class="item ">
+            <a href="#contact">
+                <i class="fa-solid fa-paper-plane"></i>
+                <p>contact</p>
+            </a>
+            <div class="divider ltr"></div>
+           </div>
+        </div>
+    </nav>
+        <div class="box profile">
+            <img class="header" src="WhatsApp Image 2025-06-15 at 08.39.47_d168f736.jpg" alt="">
+            <img class="img" src="pro.jpg" alt="">
+            <h2>Ompreet Mohapatra</h2>
+            <p id="typed" class="colored">Web Developer intern</p>
+             <ul>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"></a><i class="fa-brands fa-square-instagram"></i></li>
+                <li><a href="#"></a><i class="fa-brands fa-linkedin"></i></li>
+             </ul>
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#resume">My Resume <i class="fa-solid fa-book"></i></a></td>
+                        <td><a href="#contact">Contact Me <i class="fa-solid fa-phone"></i></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="box content">
+            <div class="wrapper">
+            <h2 id="about">Hey <span class="colored">there!</span> 👋</h2>
+            <div class="divider ltr"></div>
+            <p>I am a passionate full stack developer with strong technical expertise in <span class="colored"> React, Java, SQL, and Python.</span> I have successfully built and deployed numerous projects that reflect my problem-solving skills and deep understanding of both front-end and back-end technologies. My experience as a React developer has strengthened my ability to create dynamic, user-friendly web applications, while my proficiency in Java and SQL supports robust backend development. Continuously learning and evolving, I am now aiming to become a blockchain developer, driven by my interest in decentralized technologies and their potential to shape the future.
+            </p>
+            <section class="achivements">
+                <div>
+                    <h3><i class="fa-solid fa-layer-group"></i> 20+</h3>
+                    <p>Website Designed</p>
+                </div>
+                <div>
+                    <h3><i class="fa-solid fa-briefcase"></i> 1</h3>
+                    <p>Year of Experience</p>
+                </div>
+                <div>
+                    <h3><i class="fa-solid fa-rocket"></i>3</h3>
+                    <p>completed Projects</p>
+                </div>
+            </section>
+           
+        <h2>My <span class="colored">Skills</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="skills">
+            <div><p><i class="fa-brands fa-html5"></i> HTML</p></div>
+            <div><p><i class="fa-brands fa-css3-alt"></i> CSS</p></div>
+            <div><p><i class="fa-brands fa-react"></i> React</p></div>
+            <div><p><i class="fa-brands fa-js"></i> Javascript</p></div>
+            <div>
+                <div class="circle" style="--percent:85%">
+                    <h4>85<small>%</small></h4>
+                </div>
+                <p>MySQL</p>
+            </div>
+            <div>
+                <div class="circle" style="--percent:65%">
+                    <h4>65<small>%</small></h4>
+                </div>
+                <p>MySQL</p>
+            </div>
+            <div>
+                <div class="progress-bar">
+                    <p>Node Js <span>90%</span></p>
+                    <progress max="100" value="90"></progress>
+                </div>
+                <div class="progress-bar">
+                    <p>Python <span>75%</span></p>
+                    <progress max="100" value="75"></progress>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="resume">My <span class="colored">Experience</span></h1>
+       <div class="divider ltr"></div>
+
+       <section class="experiences">
+         <div class="experience">
+            <h2>React Developer</h2>
+            <h4>Web_bocket Inc. <span class="date">May,2025</span> &#x26ac; <span class="date"> July,2025</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nesciunt non, maiores quis officiis illum ad architecto modi cupiditate repudiandae debitis? Possimus ratione ex, in dolor est laudantium ipsam maxime.
+            </p>
+           </div>
+           <div class="experience">
+            <h2>Frontend Developer</h2>
+            <h4>Web_bocket Inc. <span class="date">May,2025</span> &#x26ac; <span class="date">July,2025</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nesciunt non, maiores quis officiis illum ad architecto modi cupiditate repudiandae debitis? Possimus ratione ex, in dolor est laudantium ipsam maxime.
+            </p>
+           </div>
+           <div class="experience">
+            <h2>Full Stack Web Developer</h2>
+            <h4>Web_bocket Inc.<span class="date">May,2025</span> &#x26ac; <span class="date">July,2025</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nesciunt non, maiores quis officiis illum ad architecto modi cupiditate repudiandae debitis? Possimus ratione ex, in dolor est laudantium ipsam maxime.
+            </p>
+           </div>
+
+       </section>
+       
+       <h1>My <span class="colored">Contributions</span></h1>
+       <div class="divider ltr"></div>
+       <section class="contribution">
+         <div class="wrapper">
+    <activity-graph
+	range-start="2021-01-01"
+	range-end="2021-12-31"
+    activity-levels="0,1,2,3,5"
+	activity-data="2021-01-01,
+                   2021-01-01,
+                   2021-01-01,
+                   2021-01-01,
+                   2021-01-01,
+                   2021-01-02,
+                   2021-01-02,
+                   2021-01-02,
+                   2021-01-02,
+                   2021-01-02,
+                   2021-01-03,
+                   2021-01-03,
+                   2021-01-03,
+                   2021-01-04,
+                   2021-01-04,
+                   2021-01-04,
+                   2021-01-05,
+                   2021-01-05,
+                   2021-01-05,
+                   2021-01-05,
+                   2021-01-05,
+                   2021-01-06,
+                   2021-01-06,
+                   2021-01-06,
+                   2021-01-06,
+                   2021-01-07,
+                   2021-01-07,
+                   2021-01-08,
+                   2021-01-08,
+                   2021-01-08,
+                   2021-01-08,
+                   2021-01-08,
+                   2021-01-09,
+                   2021-01-09,
+                   2021-01-09,
+                   2021-01-09,
+                   2021-01-09,
+                   2021-01-09,
+                   2021-01-11,
+                   2021-01-11,
+                   2021-01-11,
+                   2021-01-11,
+                   2021-01-11,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-12,
+                   2021-01-13,
+                   2021-01-13,
+                   2021-01-13,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-15,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-16,
+                   2021-01-18,
+                   2021-01-18,
+                   2021-01-18,
+                   2021-01-20,
+                   2021-01-20,
+                   2021-01-20,
+                   2021-01-20,
+                   2021-01-20,
+                   2021-01-23,
+                   2021-01-23,
+                   2021-01-23,
+                   2021-01-23,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-24,
+                   2021-01-25,
+                   2021-01-25,
+                   2021-01-25,
+                   2021-01-25,
+                   2021-01-25,
+                   2021-01-26,
+                   2021-01-26,
+                   2021-01-26,
+                   2021-01-26,
+                   2021-01-26,
+                   2021-01-26,
+                    2021-01-27,
+                   2021-01-27,
+                   2021-01-28,
+                   2021-01-28,
+                   2021-01-28,
+                   2021-01-28,
+                   2021-01-29,
+                   2021-01-29,
+                   2021-01-29,
+                   2021-01-29,
+                   2021-01-29,
+                   2021-01-31,
+                   2021-01-31,
+                   2021-01-31,
+                   2021-01-31,
+                   2021-01-31,
+                   2021-01-31,
+                   2021-02-01,
+                   2021-02-01,
+                   2021-02-01,
+                   2021-02-01,
+                   2021-02-01,
+                   2021-02-02,
+                   2021-02-02,
+                   2021-02-02,
+                   2021-02-02,
+                   2021-02-02,
+                   2021-02-03,
+                   2021-02-03,
+                   2021-02-03,
+                   2021-02-04,
+                   2021-02-04,
+                   2021-02-04,
+                   2021-02-05,
+                   2021-02-05,
+                   2021-02-05,
+                   2021-02-05,
+                   2021-02-05,
+                   2021-02-06,
+                   2021-02-06,
+                   2021-02-06,
+                   2021-02-06,
+                   2021-02-07,
+                   2021-02-07,
+                   2021-02-08,
+                   2021-02-08,
+                   2021-02-08,
+                   2021-02-08,
+                   2021-02-08,
+                   2021-02-09,
+                   2021-02-09,
+                   2021-02-09,
+                   2021-02-09,
+                   2021-02-09,
+                   2021-02-09,
+                   2021-02-11,
+                   2021-02-11,
+                   2021-02-11,
+                   2021-02-11,
+                   2021-02-11,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-12,
+                   2021-02-13,
+                   2021-02-13,
+                   2021-02-13,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-15,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-16,
+                   2021-02-18,
+                   2021-02-18,
+                   2021-02-18,
+                   2021-02-20,
+                   2021-02-20,
+                   2021-02-20,
+                   2021-02-20,
+                   2021-02-20,
+                   2021-02-23,
+                   2021-02-23,
+                   2021-02-23,
+                   2021-02-23,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-24,
+                   2021-02-25,
+                   2021-02-25,
+                   2021-02-25,
+                   2021-02-25,
+                   2021-02-25,
+                   2021-02-26,
+                   2021-02-26,
+                   2021-02-26,
+                   2021-02-26,
+                   2021-02-26,
+                   2021-02-26,
+                    2021-02-27,
+                   2021-02-27,
+                   2021-02-28,
+                   2021-02-28,
+                   2021-02-28,
+                   2021-02-28,
+                   2021-02-29,
+                   2021-02-29,
+                   2021-02-29,
+                   2021-02-29,
+                   2021-02-29,
+                   2021-02-31,
+                   2021-02-31,
+                   2021-02-31,
+                   2021-02-31,
+                   2021-02-31,
+                   2021-02-31"
+                >
+</activity-graph>
+         </div>
+       </section>
+
+       <h1 id="projects">My <span class="colored">Projects</span></h1>
+       <div class="divider ltr"></div>
+        <section class="projects">
+            <div class="project-1">
+                <a href="https://codebridgelearning.netlify.app/">
+                <img src="Screenshot 2025-08-09 112232.png" width="auto">
+                <h3>Project <span class="colored">codeBridge</span></h3>
+            </a>
+            
+            </div>
+            <div class="project-2">
+                <a href="http://thunderous-churros-cbce70.netlify.app">
+                <img src="Screenshot 2025-06-22 181209.png" alt="">
+                <h3>Project <span class="colored">Weather app</span></h3>
+            </a>
+            </div>
+            <div class="project-3">
+                <a href=".\figma4\fig.html">
+                <img src="Screenshot 2025-08-10 093542.png" alt="">
+                <h3>Project <span class="colored">Figma design</span></h3>
+            </a>
+            </div>
+            <div class="project-4">
+                <a href="https://ask2me.netlify.app/">
+                <img src="g.jpg" alt="">
+                <h3>Project <span class="colored">ai-chatbot</span></h3>
+            </a>
+            </div>
+            <div class="project-5">
+                <a href=".\bookmyshow\myshow.html">
+                <img src="images.jpeg" alt="">
+                <h3>Project <span class="colored">Bookmyshow clone</span></h3>
+            </a>
+            </div>
+            <div class="project-6">
+                <a href=".\pro\galary.html">
+                <img src="Screenshot 2025-06-22 181352.png" alt="">
+                <h3>Project <span class="colored">Art Blog</span></h3>
+            </a>
+            </div>
+        </section>
+
+        <h1 id="blogs"><span class="colored">Blogs</span></h1>
+        <div class="divider ltr"></div>
+
+        <secrion class="blogs">
+            <div class="blog-box">
+                <img src="WhatsApp Image 2025-06-22 at 09.02.20_477c56a1.jpg" alt="">
+                <div>
+                    <h3>web Design Tools</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur quis nam laborum! Error repudiandae tenetur perspiciatis accusantium incidunt iusto facilis illo blanditiis expedita aut numquam necessitatibus, modi eveniet harum!</p>
+                    <span class="link"><a href="#">Read more</a><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="WhatsApp Image 2025-06-22 at 09.08.30_5047df96.jpg" alt="">
+                <div>
+                    <h3>React developing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur quis nam laborum! Error repudiandae tenetur perspiciatis accusantium incidunt iusto facilis illo blanditiis expedita aut numquam necessitatibus, modi eveniet harum!</p>
+                    <span class="link"><a href="#">Read more</a><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="WhatsApp Image 2025-06-22 at 09.08.30_5047df96.jpg" alt="">
+                <div>
+                    <h3>React developing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur quis nam laborum! Error repudiandae tenetur perspiciatis accusantium incidunt iusto facilis illo blanditiis expedita aut numquam necessitatibus, modi eveniet harum!</p>
+                    <span class="link"><a href="#">Read more</a><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="blog-box">
+                <img src="WhatsApp Image 2025-06-22 at 09.02.20_477c56a1.jpg" alt="">
+                <div>
+                    <h3>web Design Tools</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur quis nam laborum! Error repudiandae tenetur perspiciatis accusantium incidunt iusto facilis illo blanditiis expedita aut numquam necessitatibus, modi eveniet harum!</p>
+                    <span class="link"><a href="#">Read more</a><i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            
+            
+        </secrion>
+
+       <br><h1>My <span class="colored">Testimonials</span></h1>
+        <div class="divider ltr"></div>
+
+        <section class="testimonials">
+            <div class="testimonial-box">
+               <h1>What <span class="colored">Clients Say About Me?</span></h1>
+            </div>
+            <div class="testimonial-box">
+               <img src="" alt="">
+               <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+               </span>
+               <h2>rahul tyagi</h2><h5>Manager at Web_bocket</h5>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit commodi inventore consectetur exercitationem nobis aperiam molestiae in, iure excepturi suscipit facilis harum expedita, doloremque dolorum beatae veniam. Perferendis, vel culpa.</p>
+             </div>
+             
+                <div class="testimonial-box">
+                    <img src="" alt="">
+                    <span>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                    </span>
+                    <h2>rahul tyagi</h2><h5>Manager at Web_bocket</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit commodi inventore consectetur exercitationem nobis aperiam molestiae in, iure excepturi suscipit facilis harum expedita, doloremque dolorum beatae veniam. Perferendis, vel culpa.</p>
+                  </div>
+                 
+                    <div class="testimonial-box">
+                        <img src="" alt="">
+                        <span>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                        </span>
+                        <h2>rahul tyagi</h2><h5>Manager at Web_bocket</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit commodi inventore consectetur exercitationem nobis aperiam molestiae in, iure excepturi suscipit facilis harum expedita, doloremque dolorum beatae veniam. Perferendis, vel culpa.</p>
+                      </div>
+              
+        </section>
+
+        <h1 id="contact">Contact <span class="colored">Me</span></h1>
+        <div class="divider ltr"></div>
+        <section>
+            <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7487.6936138672845!2d85.73644381554203!3d20.223685956369362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a8f0d4b84435%3A0x2588dee4207bf85c!2sSwastik%20Enclave!5e0!3m2!1sen!2sin!4v1750590303710!5m2!1sen!2sin" width="100%" height="300" 
+            frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <form action="#" class="contact">
+            <div>
+                <input type="text" class="input" name="firstname" placeholder="Your name..">
+            </div>
+            <div>
+                <input type="text" class="input" name="lastname" placeholder="Your last name..">
+            </div>
+            <div>
+                <input type="email" class="input" name="email" placeholder="Your Email Address..">
+            </div>
+            <div>
+               <textarea class="input" rows="4" name="subject" placeholder="Write Something...."></textarea>
+            </div>
+            <div>
+               <button type="submit" class="submit">SEND</button> 
+            </div>
+           </form>
+        
+        </section>
+
+          </div>
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="portfolio.js"></script> 
+</body>
+</html>
